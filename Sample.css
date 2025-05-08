@@ -1,0 +1,35 @@
+/* Center the entire content */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #2d2d2d; /* Dark background for contrast */
+    padding: 1rem;
+    /* min-width: screen; */
+    height: auto;
+    width: auto;
+  }
+  
+  /* Styled heading */
+  .heading {
+    background-color: brown;
+    color: beige;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styled subheading */
+  .subheading {
+    background-color: burlywood;
+    color: ghostwhite;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
